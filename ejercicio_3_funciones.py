@@ -1,8 +1,8 @@
-def añoBisiesto():
+def a#oBisiesto():
 
-    año = int(input('Ingrese el año: '))
+    a#o = int(input('Ingrese el año: '))
 
-    if (año % 4 == 0 ) and (año % 100 != 0) or (año % 400 == 0):
+    if (a#o % 4 == 0 ) and (a#o % 100 != 0) or (a#o % 400 == 0):
 
         return 'El año sí es bisiesto.'
 
@@ -10,4 +10,4 @@ def añoBisiesto():
 
         return 'El año no es bisiesto.'
 
-print(añoBisiesto())
+print(a#oBisiesto())
